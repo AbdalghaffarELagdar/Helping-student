@@ -1,0 +1,38 @@
+body{
+    background-image: linear-gradient(to right, rgba(74, 55, 55, 0.525), rgba(188, 130, 89, 0.594)),
+    url("../graduation.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;    
+    background-position: right;
+    background-attachment: fixed;
+    height: 100vh;  
+}
+
+body:hover{
+    background-image: linear-gradient(to right, rgb(74, 55, 55), transparent),
+    url("../graduation.jpg");
+
+}
+
+form{
+    background-color: rgb(9, 108, 166);
+    display: flex;
+    padding: 10px;
+    width: 30%;
+    height: 60%;
+    justify-content: center;
+   align-items: center;
+    flex-wrap: wrap;   
+}
+form input{
+    background-color: rgba(49, 128, 142, 0.868);
+    color:black;
+    padding: 5px 10px;
+    width: 300px;
+    border: none;
+}
+form button {
+    background-color:rgba(69, 211, 236, 0.868);
+    color: white;
+    width: 100px;
+}
